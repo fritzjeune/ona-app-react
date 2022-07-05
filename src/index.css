@@ -1,0 +1,50 @@
+
+:root {
+  --primary-color: #6576d8;
+  --secondary-color: #ff6060;
+  --secondary-light-color: #9b000085;
+  --primary-background: #000b4934;
+  --secondary-background: #9baaff2a;
+  --focused-color: #fff;
+  /* --primary-font: 'Patrick Hand', cursive; */
+  --primary-font: 'Poppins', sans-serif;
+  --secondary-font: 'Acme', sans-serif;
+  --cool-font: 'Patrick Hand', cursive;
+  --icon-size: 40px;
+  --light-text: #000b4988;
+}
+
+* { 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  background-color: var(--primary-background);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App-container {
+  width: 95vw;
+  height: 95vh;
+  min-width: 1200px; /* 1500px */
+  max-width: 1600px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: var(--focused-color);
+  display: grid;
+  grid-template-columns: 50px 2fr 8fr;
+  grid-template-rows: 100%;
+}

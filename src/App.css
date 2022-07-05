@@ -1,0 +1,58 @@
+
+.flex-hz-ctr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-vt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-bx {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  padding: 8px;
+  /* background-color: var(--focused-color); */
+  /* border-radius: 10px; */
+  overflow: hidden;
+}
+
+.icon-bx-content {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.cls-1 {   /* it s for svg interiors */
+  fill-rule:evenodd;
+}
+
+.center-ctt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-title {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.App-container {
+  /* position: relative; */
+  width: 95vw;
+  height: 95vh;
+  /* max-height: ; */
+  /* min-height: 168px;  768px */
+  min-width: 1200px; /* 1500px */
+  max-width: 1600px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: var(--focused-color);
+  display: grid;
+  grid-template-columns: 50px 2fr 8fr;
+  grid-template-rows: 100%;
+}
