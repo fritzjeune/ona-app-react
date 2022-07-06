@@ -11,12 +11,6 @@ const Logo = () => {
     )
 }
 
-const icon = [
-    {
-
-    }
-]
-
 const SideNav = () => {
     return (
         <div className="sidepanel flex-vt">
